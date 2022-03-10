@@ -1,0 +1,2 @@
+Just modifying some text and learning about the Git and Github workflow.
+I made another change to see if <git config --global core.editor "code --wait"> opens the VScode if I don't enter -m "with a message"

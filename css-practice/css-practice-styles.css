@@ -1,0 +1,10 @@
+/* Styles used in top/css-exercises/foundations/01-css-methods */
+
+div {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: ubuntu, sans-serif;
+    text-align: center;
+}

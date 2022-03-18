@@ -1,10 +1,17 @@
 /* Styles used in top/css-exercises/foundations/01-css-methods */
 
+/* This wasn't explicitly stated in the exercise, but I matched the 
+   font using an online tool and found that it was ubuntu, a free
+   google font */
+   
+* {
+    font-family: ubuntu, sans-serif;
+}
+
 div {
     background-color: red;
     color: white;
     font-size: 32px;
     font-weight: bold;
-    font-family: ubuntu, sans-serif;
     text-align: center;
 }

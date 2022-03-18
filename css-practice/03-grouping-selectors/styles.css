@@ -1,0 +1,17 @@
+/* Styles for CSS foundations 03-grouping-selectors exercise */
+
+.button-1,
+.button-2 {
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    font-size: 28px;
+}
+
+.button-1 {
+    background-color: rgb(0,0,0);
+    color: hsl(0, 0%, 100%);
+}
+
+.button-2{
+    background-color: #fffb01;
+    color: rgb(0,0,0)
+}

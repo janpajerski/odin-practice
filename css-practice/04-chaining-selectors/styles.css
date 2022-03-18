@@ -1,0 +1,11 @@
+/* Styles for CSS Foundations 04-chaining-selectors exercise */
+
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
+
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}

@@ -9,23 +9,40 @@
         * {
             color:white;
             font-size: 30px;
-       
+        }
+
+        li {
+            border: 3px solid red;
+            padding: 10px;
+        }
+
+        ul {
+            border: 2px solid blue;
+            display: flex;
+            list-style: none;
+            /* padding: 1px; */
         }
         .box1 {
             background-color: rgb(20, 158, 238);
-            display: inline;
+            /* display: flex; */
             height: 200px;
         }
 
         .box2 {
             background-color: rgb(21, 112, 21);
-            display: block;
+            display: inline;
             height: 200px;
         }
     </style>
 </head>
 <body>
-    <div class="box1">Box One</div>
+    <div class="box1">
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ul>
+    </div>
     <div class="box2">Box Two</div>
     
 </body>

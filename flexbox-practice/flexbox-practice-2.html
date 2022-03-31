@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        nav {
+            background-color: bisque;
+
+        }
+
+        nav ul {
+            display: flex;
+            gap: 12px;
+            list-style: none;
+            padding: 8px;
+        }
+
+        li {
+            padding: 2px;
+            border: 2px solid rgb(0, 225, 255);
+            flex: 0 1 auto;
+            text-align: center;
+            
+        }
+
+        li a:link {
+            color: rgb(109, 35, 35);
+        }
+
+        li.push-right {
+            margin-left: auto;
+
+        }
+
+        .big-box {
+            margin-top: 20px;
+            height: 800px;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .small-box {
+            background-color: yellow;
+            border: 4px solid rgb(0, 225, 255);
+            flex: 0 1 auto;
+            height: 100px;
+            width: 100px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+            <li class="push-right"><a href="#">Page 4 is longer</a></li>
+            <li><a href="#">Page 5 is long</a></li>
+        </ul>
+    </nav>
+    <div class="big-box">
+        <div class="small-box"></div>
+    </div>
+    
+
+</body>
+</html>

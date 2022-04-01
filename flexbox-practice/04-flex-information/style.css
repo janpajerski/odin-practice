@@ -20,6 +20,8 @@ img {
     gap: 52px;
 }
 
+/* Since all the plant info div have the exact same properties, it would have been 
+   cleaner to only use one class, instead of four separate one like I did here. */
 .barberry, .chili, .pepper, .saffron {
     text-align: center;
     width: 200px;

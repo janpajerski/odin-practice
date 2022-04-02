@@ -25,17 +25,22 @@ body {
   gap: 14px;
 }
 
-.content {
+/* .content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     row-gap: 14px;
-    column-gap: 4px;
+} */
+
+.text {
+  margin: 14px 0;
 }
 
 .header {
     font-size: 20px;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
 }
 
 .icon {

@@ -5,7 +5,10 @@ body {
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
+ /* My solution included the justify-content attribute, but it's redundant */
+ /* I set this attribute before I added flex: 1 to the .content div */
+ /* justify-content: space-between; */
 }
 
 .header {
@@ -13,7 +16,8 @@ body {
   background: darkmagenta;
   color: white;
 
-  font-size: 32px;
+  /* My header code is consistent with the TOP solution */
+  font-size: 32px;   
   font-weight: 900;
   display: flex;
   align-items: center;
@@ -33,7 +37,8 @@ body {
   width: 300px;
   background: royalblue;
   
-  flex: 1 0 auto;
+  /* .sidebar code varies slightly, but is consistent in principle */
+  flex: 1 0 auto; /* TOP solution  uses equivalent of flex: 0 0 auto */
   padding: 16px;
   font-size: 24px;
 }
@@ -47,6 +52,8 @@ body {
   list-style: none;
   padding: 0px;
   margin: 0px;
+
+  /* The biggest difference between my solution and Tops is that I use flex and gap to separate the list items, while TOP uses a margin on the li elements */
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -59,9 +66,10 @@ body {
 
   width: 280px;
   flex: 1 1 auto;
+  padding: 16px;
 }
 
-
+/* My .content div (.body in TOP) is consistent with the TOP solution. */
 .content {
   display: flex;
   flex: 1;
@@ -70,6 +78,6 @@ body {
 .info {
   display: flex;
   flex-wrap: wrap;
-  padding: 32px;
-  gap: 16px;
+  padding: 32px; 
+  gap: 16px; /* Top solution uses margin to separate .cards, I used gap */
 }

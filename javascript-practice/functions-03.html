@@ -28,13 +28,30 @@
   <script>
     const names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
     const para = document.createElement('p');
+    const numberOfNames = names.length;
 
     // Add your code here444
 
-    function chooseName(arrayIndex) {
-        return names[arrayIndex];
+    // This is the first version
+    // function chooseName(numberOfNames) {
+    //     arrayIndex = Math.floor(Math.random() * (numberOfNames));
+    //     return names[arrayIndex];
+    // }
+    
+    // The second version
+
+    function randomInt(lowerBound, upperBound) {  //assuming integer inputs
+        return Math.floor(Math.random() * (upperBound - lowerBound +1 ) + lowerBound);
     }
-    para.textContent = chooseName(4);
+
+    function chooseName(totalNames){
+        const upperBound = totalNames - 1;
+        return names[randomInt(0, upperBound)];
+    }
+
+
+
+    para.textContent = chooseName(numberOfNames);
     
 
     // Don't edit the code below here!
